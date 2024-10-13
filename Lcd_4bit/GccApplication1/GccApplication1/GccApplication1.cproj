@@ -133,6 +133,12 @@
     <Compile Include="step.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="tick.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="tick.h">
+      <SubType>compile</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>

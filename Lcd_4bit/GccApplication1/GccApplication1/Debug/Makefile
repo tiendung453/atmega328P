@@ -39,7 +39,8 @@ SUBDIRS :=
 C_SRCS +=  \
 ../lcd_4bitlib.c \
 ../main.c \
-../step.c
+../step.c \
+../tick.c
 
 
 PREPROCESSING_SRCS += 
@@ -51,22 +52,26 @@ ASM_SRCS +=
 OBJS +=  \
 lcd_4bitlib.o \
 main.o \
-step.o
+step.o \
+tick.o
 
 OBJS_AS_ARGS +=  \
 lcd_4bitlib.o \
 main.o \
-step.o
+step.o \
+tick.o
 
 C_DEPS +=  \
 lcd_4bitlib.d \
 main.d \
-step.d
+step.d \
+tick.d
 
 C_DEPS_AS_ARGS +=  \
 lcd_4bitlib.d \
 main.d \
-step.d
+step.d \
+tick.d
 
 OUTPUT_FILE_PATH +=GccApplication1.elf
 
@@ -82,6 +87,8 @@ LINKER_SCRIPT_DEP+=
 
 
 # AVR32/GNU C Compiler
+
+
 
 
 

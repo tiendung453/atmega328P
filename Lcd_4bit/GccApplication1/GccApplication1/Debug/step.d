@@ -12,7 +12,10 @@ step.d step.o: .././step.c .././step.h .././lcd_4bitlib.h \
  f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
  f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
  f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
- f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h
+ f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
+ f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h \
+ f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
+ f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h
 
 .././step.h:
 
@@ -45,3 +48,9 @@ f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
 f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
 
 f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
+
+f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h:
+
+f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h:
+
+f:\software\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h:
